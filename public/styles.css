@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    /* outline: 1px dotted red; */
+}
+
+body {
+    background: rgb(30, 30, 30);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 412px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        padding: 80px;
+    }
+    .skillBarImg img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 500px;
+    }
+    .skillBar p {
+        font-size: 5vw;
+    }
+    .myImage {
+        display: flex;
+        align-items: flex-end;
+    }
+}
