@@ -19,9 +19,6 @@ const Intro = () => {
           web/software development <br /> and make a significant impact.
         </p>
       </div>
-      <div className='myImage'>
-        <img src={bg} alt="background img" className="bg" />
-      </div>
     </section>
   );
 }

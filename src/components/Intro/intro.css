@@ -8,6 +8,7 @@
 }
 
 .bg {
+    display: flex;
     position: absolute;
     top: -4rem;
     right: 0;
@@ -28,7 +29,7 @@
 }
 
 .hello {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 100;
 }
 
